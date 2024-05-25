@@ -13,6 +13,7 @@ Ecrire « ./main » dans le terminal.
 Instructions d'utilisation
 
 Le programme utilise des entrées utilisateur pour interagir avec les différentes fonctionnalités.
+
 Assurez-vous que les entrées respectent les formats attendus, notamment pour les dates (YYYY-MM-DD).
 
 Structuration des fichiers :
@@ -67,20 +68,36 @@ main() : Boucle principale du programme avec le menu interactif.
 Dans le athlete.c :
 
 addAthlete(char *name) : Ajoute un nouvel athlète.
+
 updatePerformance(char *name, Performance p) : Met à jour la performance d'un athlète.
+
 displayStatistics(char *name) : Affiche les statistiques d'un athlète.
+
 listAthletes() : Liste tous les athlètes.
+
 selectTopThree(char *event) : Sélectionne les trois meilleurs athlètes pour un événement.
+
 displayTimeDifference(char *name, char *event, char *date1, char *date2) : Affiche la différence de temps pour un athlète entre deux dates.
+
 displayPerformanceSummary(char *name, char *event) : Affiche le résumé des performances d'un athlète pour un événement.
+
 isValidDate(const char *date) : Vérifie si une date est valide.
+
 isValidRelayPosition(int position) : Vérifie si une position de relais est valide.
+
 isValidPerformanceTime(float time) : Vérifie si un temps de performance est valide.
+
 athleteExists(char *name) : Vérifie si un athlète existe.
+
 createPerformance(char *event, char *date, float time, int relayPosition) : Crée une performance.
+
 displayEventStatistics(char *event) : Affiche les statistiques d'un événement.
+
 displayDateStatistics(char *date) : Affiche les statistiques d'une date.
+
 sortAthletesByDate() : Trie les athlètes par date.
+
 sortAthletesByName() : Trie les athlètes par ordre alphabétique.
+
 clearInputBuffer() : Vide le tampon d'entrée.
 
